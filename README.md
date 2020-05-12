@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Notes
+J'ai essayé tant bien que mal de faire fonctionner l'ActionMailer mais pas moyen. Vous pouvez donc utiliser le service de Letter Open en local pour vérifier que l'appli fonctionne.
+Ayant passé toute la journée à faire fonctionner l'appli sur Heroku je n'ai pas pu aller plus loin. Le problème n'ayant pas été résolu, c'est un echec cuisant.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Installation
+- rails db:create
+- rails db:migrate
+- rails s
+- enjoy
