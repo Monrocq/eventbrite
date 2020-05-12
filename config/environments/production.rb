@@ -94,4 +94,6 @@ Rails.application.configure do
 
   # mailer
   config.action_mailer.default_url_options = { :host => 'thp-w6-eventbrite.herokuapp.com'}
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :smtp
 end
